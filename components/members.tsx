@@ -3,6 +3,14 @@
 import { useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import NarayanImage from "@/app/images/members/Narayan.png";
+import NayanImage from "@/app/images/members/Nayan.png";
+import ShasankImage from "@/app/images/members/Shasank.png";
+import SanjogImage from "@/app/images/members/Sanjog.png";
+import MissionImage from "@/app/images/members/Mission.png";
+import PrazwalImage from "@/app/images/members/Prazwal.png";
+import RabinImage from "@/app/images/members/Rabin.png";
+import SiddhantImage from "@/app/images/members/Siddhant.png";
 import {
   Github,
   Twitter,
@@ -16,7 +24,7 @@ const members = [
     id: 1,
     name: "Narayan Bhusal",
     role: "Moderator",
-    image: "https://iili.io/2yBChFV.png",
+    image: NarayanImage,
     github: "https://github.com/naranbhusal02",
     twitter: "https://twitter.com/naranbhusal02",
     website: "https://naranbhusal02.me",
@@ -25,7 +33,7 @@ const members = [
     id: 2,
     name: "Nayan Acharya",
     role: "Moderator",
-    image: "https://iili.io/2Z7vNls.jpg",
+    image: NayanImage,
     github: "https://github.com/nayan135",
     twitter: "https://twitter.com/NoOneKnows135",
     website: "https://nayan135.com.np",
@@ -34,7 +42,7 @@ const members = [
     id: 3,
     name: "Mission Acharya",
     role: "Moderator",
-    image: "https://iili.io/2yLtERR.jpg",
+    image: MissionImage,
     github: "https://github.com/JCT-B",
     twitter: "https://twitter.com/janesmith",
     website: "https://janesmith.design",
@@ -43,7 +51,7 @@ const members = [
     id: 4,
     name: "Shasank Shrestha",
     role: "Developer",
-    image: "https://iili.io/2yx6cVs.png",
+    image: ShasankImage,
     github: "https://github.com/shasank00",
     twitter: "https://twitter.com/alexjohnson",
     website: "https://alexjohnson.dev",
@@ -52,7 +60,7 @@ const members = [
     id: 5,
     name: "Sanjog Pandey",
     role: "Developer",
-    image: "https://iili.io/32sxAle.png",
+    image: SanjogImage,
     github: "https://github.com/sarahwilson",
     twitter: "https://twitter.com/sarahwilson",
     website: "https://sarahwilson.pm",
@@ -61,7 +69,7 @@ const members = [
     id: 6,
     name: "Prazwal Roka",
     role: "Developer",
-    image: "https://iili.io/32sIsPS.png",
+    image: PrazwalImage,
     github: "https://github.com/sarahwilson",
     twitter: "https://twitter.com/sarahwilson",
     website: "https://sarahwilson.pm",
@@ -70,7 +78,16 @@ const members = [
     id: 7,
     name: "Rabin Chudali",
     role: "Developer",
-    image: "https://iili.io/2yt9vbs.jpg",
+    image: RabinImage,
+    github: "https://github.com/sarahwilson",
+    twitter: "https://twitter.com/sarahwilson",
+    website: "https://sarahwilson.pm",
+  },
+  {
+    id: 7,
+    name: "Siddhant Panthi",
+    role: "Developer",
+    image: SiddhantImage,
     github: "https://github.com/sarahwilson",
     twitter: "https://twitter.com/sarahwilson",
     website: "https://sarahwilson.pm",
