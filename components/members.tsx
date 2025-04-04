@@ -11,6 +11,7 @@ import MissionImage from "@/app/images/members/Mission.png";
 import PrazwalImage from "@/app/images/members/Prazwal.png";
 import RabinImage from "@/app/images/members/Rabin.png";
 import SiddhantImage from "@/app/images/members/Siddhant.png";
+import PixenexImage from "@/app/images/members/Pixenex.jpg";
 import {
   Github,
   Twitter,
@@ -91,6 +92,15 @@ const members = [
     github: "https://github.com/sarahwilson",
     twitter: "https://twitter.com/sarahwilson",
     website: "https://sarahwilson.pm",
+  },
+  {
+    id: 8,
+    name: "Pixenex",
+    role: "Developer",
+    image: PixenexImage,
+    github: "https://github.com/codewithnaran",
+    twitter: "https://twitter.com/sarahwilson",
+    website: "https://devpost.com/pixenex",
   },
 ];
 
